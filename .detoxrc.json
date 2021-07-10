@@ -23,7 +23,7 @@
     "emulator": {
       "type": "android.emulator",
       "device": {
-        "avdName": "Pixel_API_29_AOSP_x86_64"
+        "avdName": "Pixel_API_30"
       }
     }
   },
