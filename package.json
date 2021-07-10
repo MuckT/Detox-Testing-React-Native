@@ -7,7 +7,10 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "win:build:detox": "cd android; ./gradlew assembleDebug assembleAndroidTest -DtestBuildType=debug; cd ..",
+    "e2e:android": "detox test -c android --reuse",
+    "e2e:ios": "detox test -c ios --reuse"
   },
   "dependencies": {
     "react": "17.0.1",
