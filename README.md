@@ -32,3 +32,8 @@ A sample of using [Detox](https://github.com/wix/Detox#readme) with React Native
 2. Run the app
 
 3. Run Detox: `yarn e2e:<android|ios>`
+
+## Detox Video Sample
+
+![Detox-Sample](https://user-images.githubusercontent.com/26950305/125153496-eef5b480-e108-11eb-8832-200bbec88c2f.gif)
+
